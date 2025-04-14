@@ -136,6 +136,141 @@ const programs = [
         tools: ["Jenkins", "GitLab", "Prometheus", "ELK Stack"]
       }
     ]
+  },
+  {
+    id: 4,
+    name: "Blockchain Development",
+    description: "Secure, decentralized, and innovative—Blockchain development in action.",
+    duration: "16 weeks",
+    startDates: "Monthly Cohorts",
+    level: "Intermediate to Advanced",
+    icon: "🔗",
+    color: "from-blue-600 to-indigo-800",
+    modules: [
+      {
+        name: "Blockchain Fundamentals",
+        description: "Master the core concepts and architecture of blockchain technology",
+        topics: [
+          "Distributed Ledger Technology",
+          "Consensus Mechanisms",
+          "Cryptography Principles",
+          "Blockchain Security"
+        ],
+        tools: ["Bitcoin", "Ethereum", "Hyperledger", "Cryptography Tools"]
+      },
+      {
+        name: "Smart Contract Development",
+        description: "Learn to develop and deploy secure smart contracts",
+        topics: [
+          "Solidity Programming",
+          "Smart Contract Security",
+          "Testing & Auditing",
+          "Contract Optimization"
+        ],
+        tools: ["Solidity", "Truffle", "Hardhat", "OpenZeppelin"]
+      },
+      {
+        name: "Decentralized Applications",
+        description: "Build complete decentralized applications with modern tools and frameworks",
+        topics: [
+          "Web3.js & Ethers.js",
+          "DApp Architecture",
+          "Token Standards (ERC20, ERC721)",
+          "Decentralized Finance Principles"
+        ],
+        tools: ["JavaScript", "React", "Web3.js", "MetaMask"]
+      }
+    ]
+  },
+  {
+    id: 5,
+    name: "Game Development",
+    description: "Create, code, and play—game development in action",
+    duration: "32 weeks",
+    startDates: "Quarterly Cohorts",
+    level: "Beginner to Advanced",
+    icon: "🎮",
+    color: "from-purple-600 to-blue-600",
+    modules: [
+      {
+        name: "Game Design Fundamentals",
+        description: "Learn the core principles of game design and player engagement",
+        topics: [
+          "Game Mechanics & Systems",
+          "Level Design Principles",
+          "Player Psychology",
+          "Balancing & Difficulty Curves"
+        ],
+        tools: ["Unity", "Unreal Engine", "Game Design Documents", "Prototyping Tools"]
+      },
+      {
+        name: "Game Engine Programming",
+        description: "Master programming techniques specific to game development",
+        topics: [
+          "Game Physics & Mathematics",
+          "Rendering & Graphics Pipeline",
+          "AI & Pathfinding",
+          "Optimization Techniques"
+        ],
+        tools: ["C++", "C#", "Python", "Java"]
+      },
+      {
+        name: "Game Assets & Animation",
+        description: "Create and integrate visual and audio assets into your games",
+        topics: [
+          "2D & 3D Asset Creation",
+          "Character Animation",
+          "Sound Design & Implementation",
+          "VFX & Particle Systems"
+        ],
+        tools: ["Blender", "Maya", "Photoshop", "Audacity"]
+      }
+    ]
+  },
+  {
+    id: 6,
+    name: "AI Development",
+    description: "Master artificial intelligence concepts and techniques to build intelligent applications.",
+    duration: "24 Weeks",
+    startDates: "Quarterly Cohorts",
+    level: "Intermediate to Advanced",
+    icon: "🤖",
+    color: "from-teal-600 to-cyan-600",
+    modules: [
+      {
+        name: "Machine Learning Fundamentals",
+        description: "Learn core machine learning algorithms and techniques",
+        topics: [
+          "Supervised & Unsupervised Learning",
+          "Neural Networks & Deep Learning",
+          "Model Evaluation & Optimization",
+          "Feature Engineering"
+        ],
+        tools: ["Python", "TensorFlow", "PyTorch", "scikit-learn"]
+      },
+      {
+        name: "Natural Language Processing",
+        description: "Build applications that understand and generate human language",
+        topics: [
+          "Text Processing & Embeddings",
+          "Sentiment Analysis & Classification",
+          "Language Models & Transformers",
+          "Conversational AI"
+        ],
+        tools: ["NLTK", "spaCy", "Hugging Face", "LangChain"]
+      },
+      {
+        name: "Computer Vision",
+        description: "Develop systems that can interpret and analyze visual data",
+        topics: [
+          "Image Classification & Segmentation",
+          "Object Detection & Tracking",
+          "Generative Models & GANs",
+          "Augmented Reality Applications"
+        ],
+        tools: ["OpenCV", "TensorFlow Vision", "PyTorch Vision", "YOLO"]
+      }
+    ]
   }
 ];
 
